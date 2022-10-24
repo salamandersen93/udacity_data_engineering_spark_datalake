@@ -2,7 +2,7 @@
 
 <h2> Overview: </h2>
 
-The purpose of this project is to design an ETL pipeline using Python and Spark to solve a business challenge for a hypothetical music streaming startup called Sparkify. The business challenge is a need to transition from a data warehouse to a data lake to accommodate a growing userbase and song database. Currently, their data exists in an S3 bucket as a directory of JSON logs of user activity and a separate directory of JSON metadata containing information about songs hosted on their applicationn. The task to be executed in this project is employ Spark to build an ETL pipeline to extract the data from S3, process using Spark, and reload the data back into an S3 as a set of dimensional tables.
+The purpose of this project is to design an ETL pipeline using Python and Spark to solve a business challenge for a hypothetical music streaming startup called Sparkify. The business challenge is a need to transition from a data warehouse to a data lake to accommodate a growing userbase and song database. Currently, their data exists in an S3 bucket as a directory of JSON logs of user activity and a separate directory of JSON metadata containing information about songs hosted on their application. The task to be executed in this project is employ Spark to build an ETL pipeline to extract the data from S3, process using Spark, and reload the data back into an S3 as a set of dimensional tables.
 
 <h2> Approach Justification: </h2>
 
